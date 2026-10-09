@@ -16,4 +16,9 @@ void main() {
 
   mobil1.nama();
   mobil2.nama();
+  //mengubah variable static
+  Showroom.namaShowroom = "showroom margasari";
+  print("\n ===nama showroom di ubah=====");
+  mobil1.nama();
+  mobil2.nama();
 }
